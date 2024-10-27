@@ -1,0 +1,15 @@
+Exp 7:
+step 1: Make new IntelliJ project (Build : Maven
+				   Select Location)
+step 2: Go to maven repository in browser, and in the search bar search 'selenium'
+        and install latest (4.25.0) version for selenium. Do the same for testing 	(7.10.2) for testing.
+step 5: Go to project structure -> modules -> dependencies-> add jar or 	directories -> add selenium and testng
+step 6: Go to project structure -> libraries -> add java -> add selenium and 	testng jar file.
+step 7: In the file structure -> pom.xml -> below properties (alt + insert) -> 	dependencies -> search selenium -> add selenium.selenium.java and do the 	same for testng -> add org.testng.testng. 
+step 8: Match the dependency version to the jar file.
+step 9: On the extreme left, on the vertical sidebar select 'm' and press reload 	button to resolve new dependencies.
+step 10: Go to test -> java -> right click -> new -> java class -> give name and 	 save.
+step 11: In the new java class create new function and in the function add the git 	 code.
+step 12:Above the function add @Test to run testng cases and then run the 	function. 
+
+(I the code doesn't run re-add dependencies in libraries and modules or/and rewrite the webdriver and chrome driver keyword to get imports.)

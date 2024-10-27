@@ -1,0 +1,13 @@
+Exp 6:
+step 1: Make new IntelliJ project (Build : Maven
+				   Select Location)
+step 2: Go to maven repository in browser, and in the search bar search 'selenium'
+        and install latest (4.25.0) version for selenium.
+step 5: Go to project structure -> modules -> dependencies-> add jar or 	directories -> add selenium 
+step 6: Go to project structure -> libraries -> add java -> add selenium jar file.
+step 7: In the file structure -> pom.xml -> below properties (alt + insert) -> 	dependencies -> search selenium -> add selenium.selenium.java 
+step 8: Match the dependency version to the jar file.
+step 9: On the extreme left, on the vertical sidebar select 'm' and press reload 	button to resolve new dependencies.
+step 10:Go to src -> main.java -> copy code from git and run the code.
+
+(I the code doesn't run re-add dependencies in libraries and modules or/and rewrite the webdriver and chrome driver keyword to get imports.)
